@@ -62,3 +62,6 @@ DEPENDENCIES
   rake (~> 10.0)
   rspec (>= 3.2)
   rubocop (>= 0.31)
+
+BUNDLED WITH
+   1.10.2

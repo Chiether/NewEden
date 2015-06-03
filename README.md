@@ -21,13 +21,14 @@ Or install it yourself as:
 ```ruby
 require 'new_eden'
 
-client = NewEden::Client.new |config|
+client = NewEden::Client.new do |config|
   config.keyId = '******'
   config.vCode = '******'
 end
 
 # example
 puts client.map.kills.inspect
+
 ```
 
 ## Contact

@@ -25,7 +25,6 @@ module NewEden
       url = Addressable::URI.parse(BASE_URL + uri)
       options.merge!(auth_params)
       url.query_values = options
-      puts url.to_s
       resp = Net::HTTP.get(URI(url.to_s))
       return Hash.from_xml(resp)
     end

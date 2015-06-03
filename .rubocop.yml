@@ -1,0 +1,12 @@
+Metrics/LineLength:
+  Max: 120
+
+Style/Documentation:
+  Enabled: false
+
+# See: http://shugo.net/ruby-codeconv/codeconv.html (NaCl)
+Style/RedundantReturn:
+  Enabled: false
+
+Style/SpaceInsideHashLiteralBraces:
+  Enabled: false

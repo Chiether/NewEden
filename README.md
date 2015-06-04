@@ -5,7 +5,7 @@ NewEden is ruby-interface to the EveOnline API.
 ## Installation
 
 ```ruby
-gem 'new_eden'
+gem install new_eden
 ```
 
 And then execute:

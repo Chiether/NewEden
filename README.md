@@ -2,6 +2,12 @@
 
 NewEden is ruby-interface to the EveOnline API.
 
+## Attention
+This is alpha version.
+* v0.0.x -- alpha version. ( loose method )
+* v0.1.x -- beta version. ( loose spec )
+* v1.0.0 -- formalize.  =)
+
 ## Installation
 
 ```ruby

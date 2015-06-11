@@ -3,7 +3,6 @@ require 'hashie'
 module NewEden
   module API
     class Map < NewEden::API::Base
-
       def faction_wars(opts = {})
         return api_call('Map/FacWarSystems', opts)
       end

@@ -8,6 +8,10 @@ module NewEden
       def api_key_info(opts = {})
         return api_call('/account/APIKeyInfo', opts)
       end
+
+      def characters(opts = {})
+        return api_call('/account/Characters', opts)
+      end
     end
   end
 end
